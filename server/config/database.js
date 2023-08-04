@@ -1,6 +1,7 @@
 module.exports = {
   development: {
-    storage: process.env.DB_FILE,
+    //storage: process.env.DB_FILE,
+    storage: "db/dev.db",
     dialect: "sqlite",
     seederStorage: "sequelize",
     benchmark: true,
